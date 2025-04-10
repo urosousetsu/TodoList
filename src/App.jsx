@@ -47,6 +47,7 @@ function App() {
   return (
     <div className="app">
       <h1>Todo List</h1>
+      <p>UTS Client Side - C14220190 Billy Timotius</p>
       <AddTodo addTodo={addTodo} />
       <div>
         <button style={{ margin: '5px' }} onClick={() => setFilter('all')}>All</button>
